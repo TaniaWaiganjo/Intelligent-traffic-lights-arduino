@@ -14,8 +14,6 @@ int r3=2;
 int a3=3;
 int g3=4;
 
-
-
 void redstate(){
   
 }
@@ -92,9 +90,6 @@ void loop()
     digitalWrite(a1, LOW);
     delay(500); // Wait for 500 millisecond(s)
   }
-
-
-
 
 
   // Green
