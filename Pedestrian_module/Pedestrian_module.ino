@@ -1,24 +1,8 @@
 #include <TimerOne.h>
 //#define DEBUG
-/*
-Simulate a pedestrian crossing
 
-An Australian pedestrian crossing has three traffic control lights, 
-two pedestrian control lights and a light to acknowledge "call requests" 
-(i.e. pressing the crossing button).
-The traffic control lights cycle red -> green -> amber, solid in all.
-The pedestrian control lights cycle red -> green -> flashing red.
-The crossing button lights up the call request light, which stays lit
-until the pedestrian control light turns green.
-Once the traffic control light turns green, it stays that way for some time
-before it will yield to a call request.  This is to ensure the road is not
-continuously blocked servicing pedestrian crossing needs.
 
-This code responds to two events: the passage of time and the pressing of
-the call request button.  Outside of responding to these events the program
-has no secondary task.  To optimize the performance of the CPU in its
-secondary task, the primary tasks occur in response to interrupts.
-*/
+
 // Pin allocation:
 const int CallbuttonPin = 2;        // the "I want to cross" button
 const int lightCallAcknowledge = 3; // the light that says "you pressed the button"
