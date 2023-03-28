@@ -24,11 +24,11 @@ void setup() {
 
 void loop() 
   {
-              void redState();
+              redState();
               
-              void greenState();
+              greenState();
               
-              void amberState();
+              amberState();
               Serial.print("1");
   }          
     void redState()
