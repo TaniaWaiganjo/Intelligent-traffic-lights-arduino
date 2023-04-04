@@ -1,8 +1,12 @@
 #include <Arduino.h>
 
-#define red 2
-#define amber 3
-#define green 4
+#define redA 2
+#define amberA 3
+#define greenA 4
+
+#define redB 5
+#define amberB 6
+#define greenB 7
 
 
 void setup() {
@@ -11,13 +15,38 @@ void setup() {
 
  
   
-  pinMode(red,OUTPUT);
-  pinMode(amber,OUTPUT);
-  pinMode(green,OUTPUT);
+  pinMode(redA,OUTPUT);
+  pinMode(amberA,OUTPUT);
+  pinMode(greenA,OUTPUT);
 
-  digitalWrite(red,HIGH);
-  digitalWrite(amber,HIGH);
-  digitalWrite(green,HIGH);
+  digitalWrite(redA,HIGH);
+  digitalWrite(amberA,HIGH);
+  digitalWrite(greenA,HIGH);
+  
+  
+  pinMode(redB,OUTPUT);
+  pinMode(amberB,OUTPUT);
+  pinMode(greenB,OUTPUT);
+
+  digitalWrite(redB,HIGH);
+  digitalWrite(amberB,HIGH);
+  digitalWrite(greenB,HIGH);
+  
+  pinMode(redC,OUTPUT);
+  pinMode(amberC,OUTPUT);
+  pinMode(greenC,OUTPUT);
+
+  digitalWrite(redC,HIGH);
+  digitalWrite(amberC,HIGH);
+  digitalWrite(greenC,HIGH);
+  
+  pinMode(redD,OUTPUT);
+  pinMode(amberD,OUTPUT);
+  pinMode(greenD,OUTPUT);
+
+  digitalWrite(redD,HIGH);
+  digitalWrite(amberD,HIGH);
+  digitalWrite(greenD,HIGH);
   
   
 }
