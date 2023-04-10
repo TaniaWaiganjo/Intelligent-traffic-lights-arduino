@@ -1,9 +1,6 @@
 //***********************************************************************
 // Matlab .fis to arduino C converter v2.0.1.25122016                   
-// - Karthik Nadig, USA                                                  
-// Please report bugs to:                                                
-// https://github.com/karthiknadig/ArduinoFIS/issues                     
-// If you don't have a GitHub account mail to karthiknadig@gmail.com     
+//     
 //***********************************************************************
 
 #include "fis_header.h"
