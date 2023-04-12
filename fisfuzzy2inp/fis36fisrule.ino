@@ -74,7 +74,8 @@ void loop()
     analogWrite(8 , g_fisOutput[0]);
     // Set output vlaue: output2
     analogWrite(9 , g_fisOutput[1]);
-
+//edit out output2
+    
 }
 
 //***********************************************************************
